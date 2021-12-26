@@ -6,12 +6,10 @@
 body{
     background: darkblue;
     font-family: 'public sans';
-
 }
 .contenedor{
     width:100%;
     min-height: 100px;
-    /* background-color: rgb(194, 192, 190); */
     padding-bottom: 20px;
 }
 .contenedor h3{
@@ -22,7 +20,7 @@ body{
     background: rgb(255, 1, 1,.5);
     color: white;
 }
-.contenedor>p,.contenedor h2{
+.contenedor h2{
     color:white;
     padding:10px 0;
     width:80%;
@@ -30,6 +28,9 @@ body{
 }
 .contenedor>p{
     font-size: 25px;
+    padding: 5px;
+    color: white;
+    width:60%;
 }
 .contenedor h2{
     font-size: 30px;
@@ -38,25 +39,20 @@ body{
 .grupo_datos{
     width:90%;
     margin:5px 0
-
-    /* border:solid black 1px */
 }
 .datos{
-    /* border:solid red 1px; */
     width:60%;
     display:none;
-    /* transition: 1s; */
 }
 .flecha{
-    /* transform: rotate(-85deg); */
-    /* background: chartreuse; */
-    height:20px;
-    width: 20px;
+    width: 300px;
+    text-align: center;
     font-size: 20px;
     line-height: 20px;
-    border-radius: 50%;
     cursor: pointer;
-
+}
+.flecha i{
+    margin-left: 20px;
 }
 .flechaR{
     transform: rotate(0deg);
@@ -67,7 +63,7 @@ body{
 .ver_dato{
     display: block;
 }
-.datos p,.grupo_datos p{
+.datos p{
     text-align: center;
     font-size: 20px;
     width:60%;
@@ -77,17 +73,14 @@ body{
     padding: 2px 0;
     background: rgba(255, 0, 0, 0.3);
     color:white
-
 }
 .datos p{
     padding: 20px 0 2px;
 }
 .datos table{
-    /* background-color: aqua; */
     width:100%
 }
 .tabla th{
-    /* background-color: azure; */
     width: 100%;
 }
 .tabla tr{
@@ -113,7 +106,6 @@ body{
     font-weight: bold;
     color:rgb(0, 0, 0);
     box-shadow: 0 0 5px 2px white inset;
-    /* background: white; */
 }
 .bola_R{
     background: rgb(255, 0, 0);
@@ -136,7 +128,6 @@ body{
 .footer a{
     color:rgb(0, 0, 109,.9);
     text-shadow: 0 0 2px white;
-    /* text-decoration: none; */
     font-style: italic;
     font-weight: bold;
 }
